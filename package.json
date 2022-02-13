@@ -1,15 +1,19 @@
 {
-  "name": "demopuppeteer",
+  "name": "linxoscraping",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "Remy Lartiguelongue <remy.lartiguelongue@gmail.com>",
   "license": "ISC",
   "dependencies": {
     "dotenv": "^16.0.0",
+    "mongoose": "^6.2.1",
     "puppeteer": "^13.3.1"
+  },
+  "devDependencies": {
+    "eslint": "^8.9.0"
   }
 }
